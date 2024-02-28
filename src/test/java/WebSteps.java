@@ -30,5 +30,4 @@ public class WebSteps {
     public void shouldSeeIssueWithNumber(int issue) {
         $(withText("#" + issue)).should(Condition.exist);
     }
-
 }
