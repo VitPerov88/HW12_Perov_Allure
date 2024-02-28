@@ -47,4 +47,5 @@ public class StepsTest {
         steps.openIssuesTab();
         steps.shouldSeeIssueWithNumber(ISSUE);
     }
+
 }
