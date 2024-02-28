@@ -5,14 +5,13 @@ plugins {
 
 allure {
     report {
-        version.set("2.19.0")
+        version.set("2.25.0")
     }
-    adapter {
-        autoconfigure.set(true)
+     adapter {
         aspectjWeaver.set(true)
         frameworks {
             junit5 {
-                adapterVersion.set("2.19.0")
+                adapterVersion.set("2.25.0")
             }
         }
     }
